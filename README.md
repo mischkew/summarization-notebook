@@ -23,13 +23,13 @@ Setup a virtualenv.
 
 ```bash
 virtualenv venv -p python3
-source venv/bin/activate
 ```
 
 Install requirements and activate Jupyter Lab.
 
 ```bash
 pip install -r requirements.txt
+# enable the Jupyter Lab extension
 jupyter serverextension enable --py jupyterlab --sys-prefix
 ```
 
@@ -39,6 +39,13 @@ Before you can use the Google API, you have to setup your Service Account and ex
 Have a look here: https://cloud.google.com/natural-language/docs/common/auth#set_up_a_service_account
 
 ## Usage
+
+Enable the virtual environment before using Jupyter
+
+```bash
+source venv/bin/activate
+# run `deactivate` to deactivate the environment
+```
 
 Run Jupyter Lab or Jupyter Notebook
 
