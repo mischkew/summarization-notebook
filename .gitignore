@@ -1,0 +1,6 @@
+# OSX
+.DS_Store
+
+# python environment
+venv
+.ipynb_checkpoints
