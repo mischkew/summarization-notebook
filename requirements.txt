@@ -1,4 +1,6 @@
 appnope==0.1.0
+aylien-apiclient==0.6.0
+cycler==0.10.0
 decorator==4.0.10
 entrypoints==0.2.2
 google-api-python-client==1.5.3
@@ -16,11 +18,13 @@ jupyter-core==4.2.0
 jupyter-emacskeys==0.2.3
 jupyterlab==0.5.0
 MarkupSafe==0.23
+matplotlib==1.5.3
 mistune==0.7.3
 nbconvert==4.2.0
 nbformat==4.1.0
 nltk==3.2.1
 notebook==4.2.3
+numpy==1.11.2
 oauth2client==3.0.0
 pexpect==4.2.1
 pickleshare==0.7.4
@@ -29,6 +33,9 @@ ptyprocess==0.5.1
 pyasn1==0.1.9
 pyasn1-modules==0.0.8
 Pygments==2.1.3
+pyparsing==2.1.10
+python-dateutil==2.5.3
+pytz==2016.7
 pyzmq==15.4.0
 qtconsole==4.2.1
 rsa==3.4.2
