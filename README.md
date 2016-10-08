@@ -33,6 +33,11 @@ pip install -r requirements.txt
 jupyter serverextension enable --py jupyterlab --sys-prefix
 ```
 
+### API Setup
+
+Before you can use the Google API, you have to setup your Service Account and export the credentials.
+Have a look here: https://cloud.google.com/natural-language/docs/common/auth#set_up_a_service_account
+
 ## Usage
 
 Run Jupyter Lab or Jupyter Notebook
@@ -41,8 +46,3 @@ Run Jupyter Lab or Jupyter Notebook
 jupyter lab
 # jupyter notebook
 ```
-
-
-
-
-
